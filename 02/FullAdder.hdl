@@ -19,3 +19,5 @@ CHIP FullAdder {
     HalfAdder(a=ab, b=c, sum=sum, carry=carry2);
     Or(a=carry1, b=carry2, out=carry);
 }
+
+//Comparison ended successfully
