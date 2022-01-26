@@ -30,6 +30,7 @@ CHIP Inc16 {
    HalfAdder(a=in[12], b=c12, sum=out[12], carry=c13);
    HalfAdder(a=in[13], b=c13, sum=out[13], carry=c14);
    HalfAdder(a=in[14], b=c14, sum=out[14], carry=c15);
-   HalfAdder(a=in[15], b=c15, sum=out[15], carry=junk);
+   HalfAdder(a=in[15], b=c15, sum=out[15], carry=overflow);
    
 }
+//Comparison ended successfully
